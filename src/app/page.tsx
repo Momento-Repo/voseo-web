@@ -20,7 +20,7 @@ export default function Home() {
       } */}
 
 
-      <main className="flex flex-1 min-w-full z-10 min-h-full flex-col text-center justify-between items-center">
+      <main className="flex flex-1 min-w-full z-10 min-h-full flex-col text-center justify-between items-center ">
         {!isMobile && !isLoading &&
           <>
             <div className="min-w-fit min-h-fit overflow-clip z-0 self-start">
@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </>
         }
-        <div className="flex flex-col items-center justify-center h-full pt-16">
+        <div className="flex flex-col items-center justify-center grow min-h-full px-4 pt-16">
 
           <h1 className="font-black text-4xl leading-tight">
             {"WEBSITES FOR APPS ARE "}
@@ -38,9 +38,9 @@ export default function Home() {
             </span>
           </h1>
 
-          <h2 className="font-regular text-2xl">{"Let's go outside and make memories instead."}</h2>
+          <h2 className="font-regular text-2xl pt-4">{"Let's go outside and make memories instead."}</h2>
 
-          <div className="flex flex-col justify-between w-72 h-52 py-28">
+          <div className="flex flex-col justify-between w-72 h-52 pb-28 pt-16">
             <div className="max-w-1/2 self-start p-2 font-semibold z-10 decoration-[rgba(255,182,40)] hover:underline">
               <Link href="https://apple.com">Apple people click here</Link>
             </div>
