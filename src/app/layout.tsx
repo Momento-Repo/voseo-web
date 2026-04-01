@@ -4,7 +4,9 @@ import { helvena } from "@/lib/fonts/fonts"
 
 export const metadata: Metadata = {
   title: "Voseo",
-  description: "Voseo description",
+  description: "Voseo is a different way to remember. \
+  It brings back the feeling of real film — the kind where moments mattered because you couldn't see them right away. \
+  With Voseo, you don't scroll. You don't edit. You do't retake.",
 };
 
 export default function RootLayout({
