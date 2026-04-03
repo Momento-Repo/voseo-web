@@ -1,5 +1,10 @@
 import localFont from "next/font/local"
 
+export const atelia = localFont({
+  variable: "--font-atelia",
+  src: "./Atelia.woff2"
+})
+
 export const helvena = localFont({
   variable: "--font-helvena",
   src: [

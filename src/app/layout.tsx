@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { helvena } from "@/lib/fonts/fonts"
+import { atelia, helvena } from "@/lib/fonts/fonts"
 
 export const metadata: Metadata = {
   title: "Voseo",
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${helvena.variable} font-regular h-full w-full antialiased overscroll-none`}
+      className={`${helvena.variable} ${atelia.variable} font-regular h-full w-full antialiased overscroll-none`}
     >
       <body className="min-h-full flex flex-col">
         {children}

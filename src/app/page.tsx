@@ -30,7 +30,7 @@ export default function Home() {
         }
         <div className="flex flex-col items-center justify-center grow min-h-full px-4 pt-16">
 
-          <h1 className="font-black text-4xl leading-tight">
+          <h1 className="font-hero text-4xl leading-tight">
             {"WEBSITES FOR APPS ARE "}
             <span className="relative inline-block">
               <span className="relative">{"BORING"}</span>
@@ -38,7 +38,7 @@ export default function Home() {
             </span>
           </h1>
 
-          <h2 className="font-regular text-2xl pt-4">{"Let's go outside and make memories instead."}</h2>
+          <h2 className="font-normal text-2xl pt-4">{"Let's go outside and make memories instead."}</h2>
 
           <div className="flex flex-col justify-between w-72 h-52 pb-28 pt-16">
             <div className="max-w-1/2 self-start p-2 font-semibold z-10 decoration-[rgba(255,182,40)] hover:underline">
@@ -48,7 +48,7 @@ export default function Home() {
               <Stroke containerClassName="ml-8 w-50 h-50 -translate-y-1/2 rotate-12 translate-x-[10%] z-0" className="stroke-[rgba(255,182,40)] [stroke-linecap:round] [stroke-linejoin:round] stroke-[12px]" />
             </div>
             <div className="p-2 max-w-[54%] self-end font-semibold z-10 decoration-[rgba(255,182,40)] hover:underline">
-              <Link href="https://google.com">Google people click here</Link>
+              <Link href="https://google.com">Android people click here</Link>
             </div>
           </div>
 
