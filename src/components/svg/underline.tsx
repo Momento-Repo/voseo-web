@@ -7,7 +7,7 @@ export const Underline = ({ className, containerClassName }: { containerClassNam
     // preserveAspectRatio="none"
     viewBox="510 240 370 40">
     <path id="Path #1" className={className}
-      fill="none" stroke="black" stroke-width="1"
+      fill="none" stroke="black" strokeWidth="1"
       d="M 523.90,249.39
            C 523.90,249.39 737.92,238.22 825.39,247.52
              825.39,247.52 791.89,255.90 771.42,261.48

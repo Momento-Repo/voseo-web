@@ -6,7 +6,7 @@ export const VoseoLogo = ({ className, containerClassName, viewBox }: { viewBox?
     className={containerClassName}
     viewBox={viewBox ?? "0 0 1920 504"}>
     <path id="Selection" className={className}
-      fill="none" stroke="black" stroke-width="1"
+      fill="none" stroke="black" strokeWidth="1"
       d="M 557.00,34.21
               C 557.00,34.21 593.00,34.21 593.00,34.21
                 609.40,34.03 633.37,39.12 649.00,44.33
