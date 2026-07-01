@@ -42,7 +42,7 @@ export default function Home() {
 
           <div className="flex flex-col justify-between w-72 h-52 pb-28 pt-16">
             <div className="max-w-1/2 self-start p-2 font-semibold z-10 decoration-[rgba(255,182,40)] hover:underline">
-              <Link href="https://apps.apple.com/gb/app/voseo-every-photo-counts/id6749246751?ppid=018f3754-6016-46a2-be2f-460f6447040b">Apple people click here</Link>
+              <Link href="https://apps.apple.com/gb/app/voseo-every-photo-counts/id6749246751">Apple people click here</Link>
             </div>
             <div className="left-0 w-0 h-0">
               <Stroke containerClassName="ml-8 w-50 h-50 -translate-y-1/2 rotate-12 translate-x-[10%] z-0" className="stroke-[rgba(255,182,40)] [stroke-linecap:round] [stroke-linejoin:round] stroke-[12px]" />
@@ -65,9 +65,6 @@ export default function Home() {
           </>
         }
       </main>
-
-
-
     </div >
   );
 }
