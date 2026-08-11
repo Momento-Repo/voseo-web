@@ -102,12 +102,12 @@ export default function Home() {
         <section aria-labelledby="about-heading" className={"relative z-10 w-full max-w-2xl px-4 pt-16 text-center"}>
           <h2 id="about-heading" className="font-hero text-3xl text-center pb-16 pt-32">{"Your memories don't belong in the cloud"}</h2>
           <p className="text-base leading-relaxed ">
-            {"Voseo turns your phone into a modern disposable camera. Choose a 24, 36 or 50-shot film roll and start shooting \u2014 "}
+            {"Voseo turns your phone into a modern disposable camera. Choose a 24, 36 or 50-shot film roll and start shooting - "}
             <span className="font-semibold">{"no previews, no retakes, no filters."}</span>
             {" Every photo counts."}
           </p>
           <p className="text-base leading-relaxed pt-4">
-            {"When your roll is finished, we process, print and deliver your photos through your letterbox \u2014 nostalgic, film-style prints you'll want to keep."}
+            {"When your roll is finished, we process, print and deliver your photos through your letterbox - nostalgic, film-style prints you'll want to keep."}
           </p>
         </section>
 {/* 
@@ -135,10 +135,10 @@ export default function Home() {
         <section aria-labelledby="founder-heading" className="relative z-10 w-full max-w-2xl px-4 py-16 text-left">
           {/* <h2 id="founder-heading" className="font-hero text-3xl text-center py-6">{"A note from the founder"}</h2> */}
           <blockquote className="flex flex-col gap-4 text-base leading-relaxed italic text-foreground/80 dark:border-l-white border-l-black border-l-2 pl-4">
-            <p>{"I've started to miss the days of sitting with family and looking through old photo albums. The photos that mattered most weren't sitting in the cloud or buried in a camera roll \u2014 they were on the shelf, in a drawer, or passed around the table."}</p>
+            <p>{"I've started to miss the days of sitting with family and looking through old photo albums. The photos that mattered most weren't sitting in the cloud or buried in a camera roll - they were on the shelf, in a drawer, or passed around the table."}</p>
             <p>{"I built Voseo to create a modern alternative: something that uses the incredible camera we already carry every day, but brings back the anticipation, intention and permanence of printed photographs."}</p>
           </blockquote>
-          <p className="pt-4 text-right font-semibold not-italic">{"\u2014 Adam, Founder of Voseo"}</p>
+          <p className="pt-4 text-right font-semibold not-italic">{"- Adam, Founder of Voseo"}</p>
         </section>
 
         <footer className="relative z-10 flex flex-col items-center gap-3 pb-0 w-full pt-4">
