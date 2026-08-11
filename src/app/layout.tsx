@@ -3,18 +3,35 @@ import "./globals.css";
 import { atelia, helvena } from "@/lib/fonts/fonts"
 
 export const metadata: Metadata = {
-  title: "Voseo",
-  description: "Voseo is a different way to remember. \
-  It brings back the feeling of real film — the kind where moments mattered because you couldn't see them right away. \
-  With Voseo, you don't scroll. You don't edit. You do't retake.",
+  metadataBase: new URL("https://voseo.co"),
+  title: "Voseo — Take photos, receive prints",
+  description:
+    "Voseo turns your phone into a modern disposable camera. Shoot a 24, 36 or 50-shot roll \u2014 no previews, no retakes, no filters \u2014 then we print and deliver your photos through your letterbox.",
+  keywords: [
+    "photo prints app",
+    "disposable camera app",
+    "print photos from phone",
+    "photo printing subscription",
+    "film camera app",
+    "Voseo",
+  ],
+  openGraph: {
+    title: "Voseo — Take photos, receive prints",
+    description:
+      "Shoot a 24, 36 or 50-shot roll \u2014 no previews, no retakes, no filters \u2014 then we print and deliver your photos through your letterbox.",
+    url: "https://voseo.co",
+    siteName: "Voseo",
+    locale: "en_GB",
+    type: "website",
+  }
 };
+
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log(helvena.variable)
   return (
     <html
       lang="en"
