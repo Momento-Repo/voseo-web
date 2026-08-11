@@ -38,24 +38,6 @@ const jsonLd = {
   ],
 };
 
-const features = [
-  {
-    title: "Choose your roll",
-    description:
-      "Pick a 24, 36 or 50-shot film roll and start shooting.",
-  },
-  {
-    title: "Live in the moment",
-    description:
-      "No previews. No retakes. No filters. Every photo counts, just like a real disposable camera.",
-  },
-  {
-    title: "Enjoy the surprise",
-    description:
-      "When your roll is finished, we process, print and deliver authentic, film-style prints straight through your letterbox.",
-  },
-];
-
 export default function Home() {
   const { isMobile, isLoading } = useIsMobile()
 
