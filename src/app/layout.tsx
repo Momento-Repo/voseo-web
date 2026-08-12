@@ -4,9 +4,9 @@ import { atelia, helvena } from "@/lib/fonts/fonts"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://voseo.co"),
-  title: "Voseo App — Take photos, receive prints",
+  title: "Voseo App - Take photos, receive prints",
   description:
-    "Voseo turns your phone into a modern disposable camera. Shoot a 24, 36 or 50-shot roll \u2014 no previews, no retakes, no filters \u2014 then we print and deliver your photos through your letterbox.",
+    "Voseo turns your phone into a modern disposable camera. Shoot a 24, 36 or 50-shot roll - no previews, no retakes, no filters - then we print and deliver your photos through your letterbox.",
   keywords: [
     "photo prints app",
     "disposable camera app",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Voseo — Take photos, receive prints",
     description:
-      "Shoot a 24, 36 or 50-shot roll \u2014 no previews, no retakes, no filters \u2014 then we print and deliver your photos through your letterbox.",
+      "Shoot a 24, 36 or 50-shot roll - no previews, no retakes, no filters - then we print and deliver your photos through your letterbox.",
     url: "https://voseo.co",
     siteName: "Voseo",
     locale: "en_GB",

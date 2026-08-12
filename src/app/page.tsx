@@ -110,29 +110,8 @@ export default function Home() {
             {"When your roll is finished, we process, print and deliver your photos through your letterbox - nostalgic, film-style prints you'll want to keep."}
           </p>
         </section>
-{/* 
-        <section aria-labelledby="step-by-step" className="flex flex-col items-center w-full py-16">
-          <div className="relative z-10 w-full max-w-2xl px-4 py-8 text-left bg-amber-400">
-            <h2 id="about-heading" className="font-hero text-3xl text-white dark:text-black">{"Load your film"}</h2>
-            <p className="text-base text-white dark:text-black leading-relaxed">
-              {"Pick a 24, 36 or 50-shot film roll and start shooting."}
-            </p>
-          </div>
-          <div className="relative z-10 w-full max-w-2xl px-4 py-8 text-left bg-orange-500">
-            <h2 id="about-heading" className="font-hero text-3xl text-white dark:text-black">{"Live in the moment"}</h2>
-            <p className="text-base text-white dark:text-black leading-relaxed">
-              {"No previews. No retakes. No filters. Every photo counts, just like a real disposable camera."}
-            </p>
-          </div>
-          <div className="relative z-10 w-full max-w-2xl px-4 py-8 text-left bg-red-500">
-            <h2 id="about-heading" className="font-hero text-3xl text-white dark:text-black">{"Enjoy the surprise"}</h2>
-            <p className="text-base text-white dark:text-black leading-relaxed">
-              {"When your roll is finished, we process, print and deliver authentic, film-style prints straight through your letterbox."}
-            </p>
-          </div>
-        </section> */}
 
-        <section aria-labelledby="founder-heading" className="relative z-10 w-full max-w-2xl px-4 py-16 text-left">
+        <section aria-labelledby="founder-quote" className="relative z-10 w-full max-w-2xl px-4 py-16 text-left">
           {/* <h2 id="founder-heading" className="font-hero text-3xl text-center py-6">{"A note from the founder"}</h2> */}
           <blockquote className="flex flex-col gap-4 text-base leading-relaxed italic text-foreground/80 dark:border-l-white border-l-black border-l-2 pl-4">
             <p>{"I've started to miss the days of sitting with family and looking through old photo albums. The photos that mattered most weren't sitting in the cloud or buried in a camera roll - they were on the shelf, in a drawer, or passed around the table."}</p>
@@ -151,10 +130,9 @@ export default function Home() {
             <Link className="hover:underline" href="/delete-account">Delete account</Link>
           </div>
           <div aria-hidden className="flex flex-col w-full max-w-2xl h-5 overflow-hidden">
-            <div className="flex-1 bg-[#f1e60a]" />
-            <div className="flex-1 bg-[#ffa228]" />
+            <div className="flex-1 basis-1/3 bg-[#f1e60a]" />
+            <div className="flex-1 basis-1/3 bg-[#ffa228]" />
             <div className="flex basis-1/3 bg-[#ff034a]" />
-            {/* <span className="flex-1 bg-[rgba(43,111,237,1)]" /> */}
           </div>
         </footer>
       </main>
