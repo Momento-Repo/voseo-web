@@ -5,7 +5,7 @@ import { Stroke } from "@/components/svg/stroke";
 import { AppleLogo } from "@/components/svg/apple-logo";
 import { PlayStoreLogo } from "@/components/svg/play-store-logo";
 import Link from "next/link";
-import { useIsMobile } from "./hooks/use-is-mobile";
+import { useIsMobile } from "../hooks/use-is-mobile";
 
 const APP_STORE_URL = "https://apps.apple.com/gb/app/voseo-every-photo-counts/id6749246751";
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.voseo.voseoapp";

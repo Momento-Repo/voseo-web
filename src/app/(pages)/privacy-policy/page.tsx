@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Voseo",
+  title: "Privacy Policy - Voseo",
 };
 
 export default function PrivacyPolicyPage() {
@@ -13,13 +13,13 @@ export default function PrivacyPolicyPage() {
         understand what data we collect, why we collect it, and what your
         rights are in relation to it.
       </p>
-      <p>Last updated: 27 December 2025</p>
+      <p>Last updated: 15 October 2026</p>
 
       <nav>
         <h2>Table of contents</h2>
         <ul>
           <li><a href="#owner-and-controller">Owner and Data Controller</a></li>
-          <li><a href="#types-of-data">Types of Data collected</a></li>
+          <li><a href="#types-of-data">Type of Data we collect</a></li>
           <li><a href="#mode-and-place">Mode and place of processing the Data</a></li>
           <li><a href="#purposes">The purposes of processing</a></li>
           <li><a href="#detailed-info">Detailed information on the processing of Personal Data</a></li>
@@ -59,11 +59,14 @@ export default function PrivacyPolicyPage() {
         </p>
         <ul>
           <li>Email address</li>
-          <li>Usage Data</li>
+          <li>Usage Data, including app interaction and analytics events</li>
           <li>First name</li>
           <li>Last name</li>
           <li>Country</li>
-          <li>Device information</li>
+          <li>
+            Device information, including device or app identifiers used for
+            analytics
+          </li>
           <li>Data communicated while using the service</li>
           <li>Camera permission</li>
         </ul>
@@ -87,7 +90,7 @@ export default function PrivacyPolicyPage() {
           welcome to contact the Owner.
         </p>
         <p>
-          Any use of Cookies – or of other tracking tools — by this
+          Any use of Cookies – or of other tracking tools - by this
           Application or by the owners of third-party services used by this
           Application serves the purpose of providing the Service required by
           the User, in addition to any other purposes described in the
@@ -155,6 +158,7 @@ export default function PrivacyPolicyPage() {
         <ul>
           <li>Beta Testing</li>
           <li>Device permissions for Personal Data access</li>
+          <li>Analytics and measurement, if the User opts in</li>
         </ul>
       </section>
 
@@ -199,6 +203,67 @@ export default function PrivacyPolicyPage() {
         </p>
         <ul>
           <li>Personal Data processed: Camera permission</li>
+        </ul>
+
+        <h3>Google Analytics for Firebase (GA4)</h3>
+        <p>
+          If the User opts in to <strong>Analytics &amp; Diagnostics</strong>,
+          this Application uses Google Analytics for Firebase, which provides
+          analytics and measurement services, including reporting through
+          Google Analytics 4 (GA4). Analytics collection is controlled
+          according to the User&apos;s choice. The User can decline analytics
+          or withdraw consent later using the analytics setting in the
+          Application.
+        </p>
+        <p>
+          Analytics may include information about how the User uses the
+          Application, such as onboarding activity, sign-in or sign-up events,
+          and checkout or purchase events. Event information can include the
+          sign-in method or product identifier. Google Analytics may also
+          process technical Usage Data, such as device, app, and pseudonymous
+          identifiers, to provide its service and measure app and campaign
+          performance. This information is not intended to include the
+          User&apos;s name, email address, or payment details as analytics
+          event data.
+        </p>
+        <p>
+          On iOS, the Application may request permission through Apple&apos;s
+          App Tracking Transparency framework when the User opts in to
+          analytics. The User&apos;s App Tracking Transparency choice is
+          separate from the analytics choice. Voseo&apos;s analytics setting
+          controls analytics collection; the tracking permission is used to
+          determine whether related advertising consent signals can be
+          enabled. On Android, those advertising consent signals are based on
+          the User&apos;s analytics choice.
+        </p>
+        <p>
+          The analytics choice can be changed at any time in the
+          Application&apos;s preferences. If the User withdraws analytics
+          consent, the Application disables analytics collection and requests
+          that analytics data stored on the device be reset. This does not
+          necessarily delete data already received by Google; Users may
+          contact the Owner to exercise any applicable data rights.
+        </p>
+        <ul>
+          <li>
+            Service provider: Google (Google Analytics for Firebase / Google
+            Analytics 4)
+          </li>
+          <li>
+            Personal Data processed: Usage Data, device and app information,
+            analytics events, and device or app identifiers
+          </li>
+          <li>
+            Purpose of processing: to understand use of the Application,
+            improve its performance, and measure campaign performance
+          </li>
+          <li>
+            Place of processing: data may be processed in countries where
+            Google or its service providers operate, including the United
+            States. For further information about international transfers and
+            safeguards, Users may consult the relevant Google privacy and
+            data-processing information or contact the Owner.
+          </li>
         </ul>
       </section>
 
@@ -245,6 +310,11 @@ export default function PrivacyPolicyPage() {
           whether the provision of Personal Data is a statutory or
           contractual requirement, or a requirement necessary to enter into a
           contract.
+        </p>
+        <p>
+          For Google Analytics for Firebase analytics described in this
+          policy, the legal basis is the User&apos;s consent. The User may
+          decline or withdraw that consent as described above.
         </p>
 
         <h3>Further information about retention time</h3>
@@ -442,8 +512,8 @@ export default function PrivacyPolicyPage() {
         <h2>Definitions and legal references</h2>
         <p>
           <strong>Personal Data (or Data).</strong> Any information that
-          directly, indirectly, or in connection with other information —
-          including a personal identification number — allows for the
+          directly, indirectly, or in connection with other information -
+          including a personal identification number - allows for the
           identification or identifiability of a natural person.
         </p>
         <p>
