@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
         understand what data we collect, why we collect it, and what your
         rights are in relation to it.
       </p>
-      <p>Last updated: 15 October 2026</p>
+      <p>Last updated: 19 November 2026</p>
 
       <nav>
         <h2>Table of contents</h2>
@@ -67,6 +67,7 @@ export default function PrivacyPolicyPage() {
             Device information, including device or app identifiers used for
             analytics
           </li>
+          <li>Anonymous crash reports and related technical diagnostics</li>
           <li>Data communicated while using the service</li>
           <li>Camera permission</li>
         </ul>
@@ -158,7 +159,7 @@ export default function PrivacyPolicyPage() {
         <ul>
           <li>Beta Testing</li>
           <li>Device permissions for Personal Data access</li>
-          <li>Analytics and measurement, if the User opts in</li>
+          <li>Analytics, measurement, and crash diagnostics, if the User opts in</li>
         </ul>
       </section>
 
@@ -239,10 +240,11 @@ export default function PrivacyPolicyPage() {
         <p>
           The analytics choice can be changed at any time in the
           Application&apos;s preferences. If the User withdraws analytics
-          consent, the Application disables analytics collection and requests
-          that analytics data stored on the device be reset. This does not
-          necessarily delete data already received by Google; Users may
-          contact the Owner to exercise any applicable data rights.
+          consent, the Application disables Google Analytics and Crashlytics
+          collection and requests that related data stored on the device be
+          reset. This does not necessarily delete data already received by
+          Google; Users may contact the Owner to exercise any applicable data
+          rights.
         </p>
         <ul>
           <li>
@@ -265,6 +267,34 @@ export default function PrivacyPolicyPage() {
             data-processing information or contact the Owner.
           </li>
         </ul>
+
+        <h3>Google Firebase Crashlytics</h3>
+        <p>
+          If the User opts in to <strong>Analytics &amp; Diagnostics</strong>,
+          this Application uses Google Firebase Crashlytics to collect
+          anonymous crash reports and help diagnose and fix application
+          stability issues. Crash reports may include technical diagnostic
+          information about the crash, the Application, and the User&apos;s
+          device. Crash reporting is controlled by the User&apos;s analytics
+          choice and is disabled if the User declines or withdraws consent in
+          the Application&apos;s preferences.
+        </p>
+        <ul>
+          <li>Service provider: Google (Firebase Crashlytics)</li>
+          <li>
+            Personal Data processed: anonymous crash reports and related
+            technical diagnostic information
+          </li>
+          <li>Purpose of processing: to diagnose and resolve application crashes</li>
+          <li>
+            Place of processing: data may be processed in countries where
+            Google or its service providers operate, including the United
+            States. For further information about international transfers and
+            safeguards, Users may consult the relevant Google privacy and
+            data-processing information or contact the Owner.
+          </li>
+        </ul>
+
       </section>
 
       <section id="cookie-policy">
@@ -312,9 +342,10 @@ export default function PrivacyPolicyPage() {
           contract.
         </p>
         <p>
-          For Google Analytics for Firebase analytics described in this
-          policy, the legal basis is the User&apos;s consent. The User may
-          decline or withdraw that consent as described above.
+          For Google Analytics for Firebase analytics and Google Firebase
+          Crashlytics crash reporting described in this policy, the legal
+          basis is the User&apos;s consent. The User may decline or withdraw
+          that consent as described above.
         </p>
 
         <h3>Further information about retention time</h3>
